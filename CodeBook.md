@@ -35,7 +35,7 @@ Given the data set described above, the [run_analysis.R](https://github.com/tgco
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set (from `activity_labels.txt`)
 4. Appropriately labels the data set with descriptive variable names (from `features.txt`).
-5. From the data set in step 4, creates a second, independent tidy data set ([tidy_data.txt](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt) with the average of each variable for each activity and each subject.
+5. From the data set in step 4, creates a second, independent tidy data set ([tidy_data.txt](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt)) with the average of each variable for each activity and each subject.
 
 ## Feature Selection 
 
@@ -71,7 +71,7 @@ The set of variables that were estimated from these signals are:
 * mean(): Mean value
 * std(): Standard deviation
 
-The cleaned data ([tidy_data](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt)) contains the following variables:
+The cleaned data ([tidy_data.txt](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt)) contains the following variables:
 
 * The identifier of the subject that performed the experiment (range 1 to 30)
 * The activity performed by the subject, from the following list: `WALKING`,`WALKING_UPSTAIRS`,`WALKING_DOWNSTAIRS`,`SITTING`,`STANDING`,`LAYING`
