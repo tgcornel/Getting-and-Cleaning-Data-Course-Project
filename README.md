@@ -16,7 +16,7 @@ Follow these steps to run the script:
 1. Download the data from this [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and unzip the data in your R working directory. You will 
 have a new directory "UCI HAR Dataset" in your working directory.
 2. Make sure that the `dplyr` library is installed (`install.packages("dplyr")`). The script will load the library if needed, but it will not install it.
-3. Copy the script to your working directory and run it with `source("run_analysis.R")`. This will produce a file [tidy_data.txt](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt) in your working directory that contains a table with 180 rows and 88 columns corresponding to the average of each variable (88 selected features) for each activity (6) and each subject (30).
+3. Copy the script to your working directory and run it with `source("run_analysis.R")`. This will produce a file [tidy_data.txt](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt) in your working directory that contains a table with 180 rows and 66 columns corresponding to the average of each variable (66 selected features) for each activity (6) and each subject (30).
 
 ## Code book
 This repository also contains a [code book](https://github.com/tgcornel/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md), that describes the variables and summaries calculated along with their units.
